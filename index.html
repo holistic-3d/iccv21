@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Holistic 3D @ ICCV 2021</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Holistic 3D Home</a></li>
+        <!-- <li><a href="challenge.html">Challenges</a></li> -->
+        <!-- <li><a href="speakers.html">Invited Speakers</a></li> -->
+      </ul>
+    </div>
+    
+  </div>
+</nav>
+
+<br>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h4>ICCV 2021 Workshop</h4>
+    <h2>Holistic Structures for 3D Vision</h2>
+    <p>ONLINE - Time TBD</p>
+    <img src="figures/teaser.jpg" width="90%">
+  </div>
+</div>
+
+<div class="container" id="news">
+  <h2><font color=red>News</font></h2>
+  <p>
+    [2021.4] Workshop website is online. Please stay tuned for more details!
+  </p>
+</div>
+  
+<div class="container" id="introduction">
+  <h2>Introduction</h2>
+  <p>
+  The perception of holistic scene structures, that is, orderly, regular, symmetric, or repetitive patterns and relationships in a scene, plays a critical role in human vision. When walking in a man-made environment, such as office buildings, a human can instantly identify parallel lines, rectangles, cuboids, rotational symmetries, repetitive patterns, and many other types of structure, and exploit them for accurate and robust 3D localization, orientation, and navigation. In computer vision, the use of such holistic structural elements has a long history in 3D modeling of physical environments. Due to their ability and potential in creating high-level, compact, and semantically rich scene representations, which are ideal for modern 3D vision tasks, these methods have drawn increased attention in the research community lately.
+  </p>
+  <p>
+  However, significantly more efforts are still required to enable real-world complex tasks, such as augmented reality, robot navigation and human-robot interaction, as they often demand human-level understanding of the environments. To fully harness the power of holistic scene structures as humans do, we are interested in the following questions: 
+  <ol>
+    <li><b>Structured 3D reconstruction</b>: How to efficiently recover structures from data acquired by a variety of sensors such as monocular and binocular vision, LiDAR, and RGB-D sensors?</li>
+    <li><b>Synthesis and editing</b>: How to leverage structures for photo-realistic image synthesis and editing?</li>
+    <li><b>3D scene generation and manipulation</b>: How to enable machines to produce and update CAD-like 3D models?</li>
+    <li><b>Representation learning</b>: What representations are suitable for capturing various types of scene structures?</li>
+    <li><b>Reasoning, planning, and interaction</b>: How to use structures to reason about physical and functional properties, and to anticipate activities in a dynamic environment, in order to enable the agent to act within it?</li>
+    <li><b>Applications</b>: What are the other pressing issues (e.g., hardware development) in enabling real-world applications?</li>
+  </ol>
+  </p>
+  <p>
+  As such, this workshop will bring together researchers working on exploring holistic scene structures for accurate, robust, and reliable 3D vision, as well as researchers who use structures in a variety of disciplines (e.g., robotics, VR/AR,interior design, and architectural engineering). We will examine the challenges, new directions, and the implication of industrial applications on holistic 3D modeling approaches.
+  </p>
+</div>
+
+<div class="container" id="resources">
+  <h2>Resources</h2>
+  <h4>We maintain a list of datasets, codes, and papers on holistic 3D reconstruction <a href="https://github.com/holistic-3d/awesome-holistic-3d">here</a>.</h4>
+</div>
+
+<div class="container" id="organizers">
+  <h2>Organizers</h2>
+  <div align="center">
+      
+      <div class="instructor">
+          <a href="https://faculty.ist.psu.edu/zzhou/">
+              <div class="instructorphoto"><img src="figures/zihan.jpg" id="zhou"></div>
+              <div>Zihan Zhou<br>Penn State U.</div>
+              
+          </a>
+      </div>
+      
+      <div class="instructor">
+          <a href="https://www.sfu.ca/computing/people/faculty/yasutakafurukawa1.html">
+              <div class="instructorphoto"><img src="figures/furukawa.jpg" id="furukawa"></div>
+              <div>Yasutaka Furukawa<br>Simon Fraser U.</div>
+          </a>
+      </div>
+      
+      <div class="instructor">
+          <a href="https://people.eecs.berkeley.edu/~yima/">
+              <div class="instructorphoto"><img src="figures/YiMa.jpg" id="ma"></div>
+              <div>Yi Ma<br>UC Berkeley</div>
+          </a>
+      </div>
+      
+      <div class="instructor">
+          <a href="http://sist.shanghaitech.edu.cn/sist_en/2018/0820/c3846a31775/page.htm">
+              <div class="instructorphoto"><img src="figures/shenghua.jpg" id="gao"></div>
+              <div>Shenghua Gao<br>ShanghaiTech U.</div>
+          </a>
+      </div>
+
+  </div>
+</div>
+
+<br>
+  
+ 
+<footer class="container-fluid">
+    <p>&copy 2021 Holistic 3D Team</p>
+</footer>
+
+
+</body>
+</html>
+
